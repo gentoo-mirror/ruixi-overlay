@@ -11,7 +11,7 @@ SLOT="0"
 
 DEPEND="media-gfx/qrencode
         net-wireless/iw
-	net-wireless/hostapd
+	    net-wireless/hostapd
        "
 RDEPEND="${DEPEND}"
 if [ "$PV" == "9999" ]; then
