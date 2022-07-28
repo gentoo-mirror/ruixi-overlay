@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-gfx/qrencode net-wireless/iw net-wireless/hostapd
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=6bef435ab7685ba99bd81a8283717653
+_md5_=1595f1e9be8177ddb28ad3a5f8941d2d

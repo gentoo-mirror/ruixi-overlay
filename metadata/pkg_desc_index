@@ -1,1 +1,2 @@
 net-wireless/linux-wifi-hotspot 9999: Linux Wifi Hotspot
+sys-kernel/xanmod-source 5.18.14: XanMod kernel sources, including the Gentoo patchset
