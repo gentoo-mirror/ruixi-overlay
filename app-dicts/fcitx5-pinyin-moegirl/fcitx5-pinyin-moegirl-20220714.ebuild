@@ -12,7 +12,7 @@ SRC_URI="https://github.com/outloudvi/mw2fcitx/releases/download/${MY_PV}/${MY_P
 
 LICENSE="Unlicense"
 SLOT="5"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-i18n/fcitx:5"
 RDEPEND="${DEPEND}"
