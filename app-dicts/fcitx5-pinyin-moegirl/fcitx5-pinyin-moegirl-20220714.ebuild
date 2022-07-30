@@ -1,3 +1,6 @@
+# Copyright 2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
 EAPI=8
 
 MY_PN="moegirl.dict"
@@ -8,10 +11,10 @@ HOMEPAGE="https://github.com/outloudvi/mw2fcitx"
 SRC_URI="https://github.com/outloudvi/mw2fcitx/releases/download/${MY_PV}/${MY_PN}"
 
 LICENSE="Unlicense"
-SLOT="0"
+SLOT="5"
 KEYWORDS="amd64 x86"
 
-DEPEND=""
+DEPEND="app-i18n/fcitx:5"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 

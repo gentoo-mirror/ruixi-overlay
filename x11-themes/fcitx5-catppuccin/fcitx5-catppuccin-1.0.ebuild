@@ -1,3 +1,6 @@
+# Copyright 2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
 EAPI=8
 
 MY_TAG="1.0"
@@ -6,10 +9,10 @@ DESCRIPTION="Fcitx5 Catppuccin Theme"
 HOMEPAGE="https://github.com/Ruixi-rebirth/fcitx5-catppuccin"
 SRC_URI="https://github.com/Ruixi-rebirth/fcitx5-catppuccin/releases/download/${MY_TAG}/${MY_P}.tar.bz2"
 LICENSE="MIT"
-SLOT="0"
+SLOT="5"
 KEYWORDS="amd64 x86"
 
-DEPEND=""
+DEPEND="app-i18n/fcitx:5"
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
