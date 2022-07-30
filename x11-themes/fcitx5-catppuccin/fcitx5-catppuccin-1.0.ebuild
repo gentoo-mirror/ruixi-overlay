@@ -10,7 +10,7 @@ HOMEPAGE="https://github.com/Ruixi-rebirth/fcitx5-catppuccin"
 SRC_URI="https://github.com/Ruixi-rebirth/fcitx5-catppuccin/releases/download/${MY_TAG}/${MY_P}.tar.bz2"
 LICENSE="MIT"
 SLOT="5"
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
 DEPEND="app-i18n/fcitx:5"
 RDEPEND="${DEPEND}"
