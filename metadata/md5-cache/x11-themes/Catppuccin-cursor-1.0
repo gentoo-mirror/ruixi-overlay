@@ -6,4 +6,4 @@ KEYWORDS=amd64 x86
 LICENSE=MIT
 SLOT=0
 SRC_URI=https://github.com/Ruixi-rebirth/Catppuccin-cursor/releases//Catppuccin-cursor.tar.bz2
-_md5_=ef2e60c3dd53b3e68f644ff633187b0c
+_md5_=a69b8e5af6c6169a397a492e604b1e47

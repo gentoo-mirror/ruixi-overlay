@@ -1,9 +1,11 @@
 DEFINED_PHASES=install unpack
+DEPEND=app-i18n/fcitx:5
 DESCRIPTION=Fcitx5 Catppuccin Theme
 EAPI=8
 HOMEPAGE=https://github.com/Ruixi-rebirth/fcitx5-catppuccin
 KEYWORDS=amd64 x86
 LICENSE=MIT
-SLOT=0
+RDEPEND=app-i18n/fcitx:5
+SLOT=5
 SRC_URI=https://github.com/Ruixi-rebirth/fcitx5-catppuccin/releases/download/1.0/Catppuccin.tar.bz2
-_md5_=ec497c9824858e25638cff9bb40b6409
+_md5_=89a2bb238484b69d30efaa094fda97a9

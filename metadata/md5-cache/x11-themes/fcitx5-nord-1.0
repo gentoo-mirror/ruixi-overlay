@@ -1,9 +1,11 @@
 DEFINED_PHASES=install unpack
+DEPEND=app-i18n/fcitx:5
 DESCRIPTION=Fcitx5 Nord Theme
 EAPI=8
 HOMEPAGE=https://github.com/Ruixi-rebirth/fcitx5-nord
 KEYWORDS=amd64 x86
 LICENSE=MIT
-SLOT=0
+RDEPEND=app-i18n/fcitx:5
+SLOT=5
 SRC_URI=https://github.com/Ruixi-rebirth/fcitx5-nord/releases/download/1.0/nord.tar.bz2
-_md5_=c1edfb448e6e1f405ca1c5e5445be90c
+_md5_=a82fb45052c7ccf71fa3e4a85b93df43
