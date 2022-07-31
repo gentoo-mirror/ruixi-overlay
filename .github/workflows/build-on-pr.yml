@@ -30,10 +30,8 @@ jobs:
                     | xargs -I{} dirname {} | sort | uniq | tr '\n' ' ' )
         echo "::set-output name=packages::$packages"
         echo "emerge $packages"
+
     - name: docker
       uses: liangyongxiang/emerge-action@v0.1
       with:
         packages: "${{ steps.packages.outputs.packages }}"
-        
-        
-        
