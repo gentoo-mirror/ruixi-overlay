@@ -113,10 +113,8 @@ jobs:
           ret: ${{ steps.check.outputs.ret }}
         run: |
           set -e
-
           v_pkgcheck=$(pkgcheck --version) || true
           commit_gentoo=$(cd /var/db/repos/gentoo && git rev-list -n1 HEAD) || true
-
           r_len=$(wc -c /var/tmp/report.txt | awk -F'[[:space:]]' '{printf $1}')
           r_header='`pkgcheck` checks'
           if [[ ${r_len} == 0 ]]; then
@@ -129,15 +127,11 @@ jobs:
               r_title=":x: ${r_header} failed"
             fi
           fi
-
           cat <<EOF >/var/tmp/report.md
           ## ${r_title}
-
           * ${v_pkgcheck}
           * the corresponding _**::gentoo**_ commit: https://github.com/gentoo-mirror/gentoo/commit/${commit_gentoo}
-
           EOF
-
           if [[ -n ${r_explain} ]]; then
             echo "<details open><summary><b>QA Results:</b></summary>
             " >>/var/tmp/report.md
@@ -157,7 +151,6 @@ jobs:
             fi
             cat <<EOF >>/var/tmp/report.md
           </details>
-
           ${r_explain}
           EOF
           fi
