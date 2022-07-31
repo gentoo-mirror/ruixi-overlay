@@ -3,7 +3,7 @@
 
 EAPI=8
 
-MY_PV="1.1"
+MY_PV="1.0"
 MY_P="Catppuccin-cursor"
 DESCRIPTION="Catppuccin-Cursor Theme"
 HOMEPAGE="https://github.com/Ruixi-rebirth/fcitx5-catppuccin"
