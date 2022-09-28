@@ -1,4 +1,5 @@
 app-dicts/fcitx5-pinyin-moegirl 20220714: Fcitx 5 Pinyin Dictionary from zh.moegirl.org.cn
+net-im/icalingua++-bin 2.7.3: A Linux client for QQ and more (forked branch). Previously called Electron QQ
 net-wireless/linux-wifi-hotspot 9999: Linux Wifi Hotspot
 sys-kernel/xanmod-sources 5.18.14: XanMod kernel sources, including the Gentoo patchset
 x11-misc/rofi-wayland 9999: Wayland fork of rofi, a window switcher, run dialog and dmenu replacement
